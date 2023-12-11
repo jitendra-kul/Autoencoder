@@ -1,1 +1,8 @@
 # Anomaly detection with AutoEncoder
+Globally, cardiovascular disease (CVD) stands as the predominant cause of morbidity and mortality, contributing to over 70% of all fatalities. Despite the significance of technologies like electrocardiograms (ECG) in diagnosing CVD, prevalent classification models based on supervised machine learning often fall short in effectively identifying abnormal ECG patterns. In response, we propose an ECG anomaly detection framework grounded in deep learning autoencoders.
+
+Autoencoders are a type of Artificial Neural Network (ANN) that is used to learn complex data representations and compress data effectively. Autoencoders are trained to learn a representation of the input data that has a lower dimensionality than the original input. This is done by learning to reconstruct the input data from a compressed representation. Autoencoders can be used for a variety of tasks, such as dimensionality reduction, denoising, and feature extraction.
+
+The ECG is a proven noninvasive test for predicting CVD. However, the ECG signal is prone to contamination by different kinds of noise. Such noise may cause deformation on the ECG heartbeat waveform, leading to cardiologists’ mislabeling or misinterpreting heartbeats.
+
+The autoencoder, in this context, is trained to learn a compressed representation of input data, successfully addressing this challenge. Results indicate a mean absolute error (MAE) of 0.033645935, demonstrating the autoencoder's capacity to handle noise in ECG-based time series signals. The training model exhibits high accuracy, effectively mitigating overfitting issues in a robust and efficient manner.
